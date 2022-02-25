@@ -7,6 +7,7 @@ spec:
   - port: 80
     protocol: TCP
     targetPort: 80
+  type: NodePort
   selector:
     run: nginx-deploy
 
